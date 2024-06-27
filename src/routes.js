@@ -4,7 +4,7 @@ const routes = [
     {
         name: 'Index',
         component: () => import('./pages/Index/Index.vue'),
-        path: '/reflexiveai/',
+        path: '/',
         meta: {
             title: 'Index',
             requiresAuth: false
@@ -13,7 +13,7 @@ const routes = [
     {
         name: 'Login',
         component: () => import('./pages/Login/Login.vue'),
-        path: '/reflexiveai/login',
+        path: '/login',
         meta: {
             title: 'Login',
             requiresAuth: false
@@ -22,7 +22,7 @@ const routes = [
     {
         name: 'Signup',
         component: () => import('./pages/Signup/Signup.vue'),
-        path: '/reflexiveai/sign-up',
+        path: '/sign-up',
         meta: {
             title: 'Signup',
             requiresAuth: false
